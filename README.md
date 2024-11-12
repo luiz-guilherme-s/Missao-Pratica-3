@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +45,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+=======
+# Missao-Pratica-3
+Este é um projeto de catálogo de livros desenvolvido com React, que permite o cadastro, visualização e exclusão de livros. A aplicação utiliza json-server para simular uma API REST para gerenciar os dados dos livros.
+>>>>>>> e5712ae5683ebe2445f2e6a06bd33a9804b0e7e4
