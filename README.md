@@ -1,51 +1,46 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-=======
-# Missao-Pratica-3
+Catálogo de Livros 📚
 Este é um projeto de catálogo de livros desenvolvido com React, que permite o cadastro, visualização e exclusão de livros. A aplicação utiliza json-server para simular uma API REST para gerenciar os dados dos livros.
->>>>>>> e5712ae5683ebe2445f2e6a06bd33a9804b0e7e4
+
+Funcionalidades 🚀
+Listagem de Livros: Exibe todos os livros cadastrados em um formato de tabela, incluindo título, resumo, editora e autores.
+Cadastro de Novo Livro: Formulário para adicionar um novo livro, preenchendo informações como título, resumo, editora e autores.
+Exclusão de Livros: Permite excluir um livro do catálogo diretamente pela interface.
+Simulação de API: Utiliza json-server para servir o db.json como um banco de dados fake, facilitando o desenvolvimento local.
+Tecnologias Utilizadas 🛠️
+React: Biblioteca principal para criação da interface.
+Bootstrap: Framework de CSS para estilização rápida e responsiva.
+json-server: Simulação de uma API REST para o CRUD dos livros.
+Como Executar o Projeto ⚙️
+Instalar Dependências:
+
+bash
+Copiar código
+npm install
+Iniciar o json-server: Em um terminal separado, rode o comando abaixo para iniciar o servidor JSON, que estará escutando na porta 3001.
+
+bash
+Copiar código
+npx json-server --watch db.json --port 3001
+Iniciar a Aplicação React: Em outro terminal, inicie a aplicação React.
+
+bash
+Copiar código
+npm start
+Acessar a Aplicação: Abra o navegador e vá até [http://localhost:3000](
+
+) para visualizar a aplicação.
+
+Estrutura do Projeto 📁
+src/ - Contém os arquivos principais do projeto em React.
+App.tsx - Componente principal com as rotas para a listagem e o cadastro de livros.
+components/ - Componentes reutilizáveis, incluindo o cabeçalho (navbar), tabela de livros e formulário de cadastro.
+styles/ - Arquivos de estilos CSS para customização do visual.
+Pré-requisitos 🔧
+Node.js e npm instalados para rodar a aplicação e gerenciar pacotes.
+json-server instalado (pode ser executado com o comando npx conforme explicado).
+Próximos Passos ✨
+Este é um projeto básico, e alguns aprimoramentos futuros podem incluir:
+
+Implementação de uma API real para persistência dos dados.
+Adição de funcionalidade de busca e filtros para o catálogo de livros.
+Melhoria no layout e na responsividade com customizações adicionais no CSS.
